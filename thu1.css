@@ -1,0 +1,70 @@
+*{
+    font-size: 14px;
+}
+.khungngoai{
+    width: 450px;
+    height: 210px;
+    border: #e1e1e1 1px solid;
+}
+.header{
+
+    width: 450px;
+    height: 38px;
+    background-image:url("images/header_background.png");
+}
+.tieude{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+.body{
+
+}
+.input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align:left;
+    margin-left: 10px;
+}
+
+label {
+    margin-right: 50px;
+}
+.khungnhap{
+    width: 200px;
+}
+.link{
+    text-align: center;
+    alignment: left;
+    margin-bottom: 7px;
+    margin-right: 80px;
+    margin-top: 2px;
+}
+.footer{
+    width: 450px;
+    height: 68px;
+    background-image: url("images/footer_background.png");
+}
+.nutbama{
+
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background: #ffe339;
+    height: 30px;
+
+}
+.nutbamb{
+
+    margin-top: 20px;
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20px;
+    background: #e1e1e1;
+    height: 30px;
+}
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" href="thu1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript">
+        function confirmAction()
+        {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if ('' === username){
+                alert('Bạn chưa nhập tên đăng nhập');
+            }
+            else if ('' === password)
+            {
+                alert('Bạn chưa nhập mật khẩu');
+            }
+            else{
+                alert('Dữ liệu hợp lệ, ta có thể chấp nhận login form');
+                return true;
+            }
+
+            return false;
+        }
+    </script>
+</head>
+<body>
+<form method="post" action=""  onsubmit="return confirmAction()" class="khungngoai" >
+    <div class="header">
+        <p class="tieude"> Login to your account </p>
+    </div>
+
+    <div class="body">
+
+        <div class="input">
+            <label > Username: </label>
+            <input class="khungnhap" type="text" name="username" id="username" placeholder="Enter username" value=""/><br>
+            <hr width="400px" align="left">
+            <label > Password: </label>
+            <input class="khungnhap" type="text" name="password" id="password" placeholder="Enter password" value=""/>
+        </div>
+
+        <div class="link">
+            <a href=""> Forgot password?</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <input class="nutbama" type="submit" name="login" value="Login " >
+        <input class="nutbamb" type="button" name="cancel" value="Cancel">
+    </div>
+
+
+</form>
+</body>
+</html>
